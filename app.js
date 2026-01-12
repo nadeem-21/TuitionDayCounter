@@ -1,3 +1,4 @@
+// trigger github pages build
 
 const STORAGE_KEY = "tuition_students";
 
@@ -144,4 +145,5 @@ function markToday(id) {
   saveToStorage();
   renderTable();
 }
+
 
