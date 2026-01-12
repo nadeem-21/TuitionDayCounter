@@ -1,4 +1,4 @@
-// Key used in localStorage
+
 const STORAGE_KEY = "tuition_students";
 
 let students = [];
@@ -144,3 +144,4 @@ function markToday(id) {
   saveToStorage();
   renderTable();
 }
+
